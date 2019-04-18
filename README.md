@@ -19,10 +19,10 @@ bash tutorial
 
 ## Variables
 variables are tricky in bash because the syntax is not as usual as the other programs. 
--   You must not put space between the variable's name, the equal sign,and the variable name 
+-  (warning!) You must not put space between the variable's name, the equal sign,and the variable name 
 ```bash
-$ name="chini5ko"
-(there is no space between the string and the equal sign !)
+$ name="chini5ko" # (there is no space between the string and the equal sign !)
+
 $ echo $name
 ```
 ```
