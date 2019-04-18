@@ -8,8 +8,8 @@ It is a simple guide that you can scrow down easily and learn quickly.
 the hashtag is use as comments # <--- as an example 
 ```
 
-##### 2 standard output (terminal)
-Just keep in mind that stdout (standard output) is the terminal to show our testing :)  
+##### 2 output (terminal)
+Just keep in mind that output (standard output) is the terminal to show our testing :)  
 
 ```
 stdout:
@@ -26,7 +26,7 @@ $ echo "bash tutorial"
 ```
 
 ```
-stdout:
+output:
 -------
 bash tutorial 
 ```
@@ -39,10 +39,9 @@ $ name="chini5ko" # (there is no space between the string and the equal sign !)
 $ echo $name
 ```
 ```
-stdout:
+output:
 -------
-$ name="chini5ko"
-hector  
+chini5ko  
 ```
 
 
