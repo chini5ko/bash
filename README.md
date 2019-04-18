@@ -3,12 +3,12 @@ It is a simple guide that you can scrow down easily and learn quickly.
 
 #### 2 points before we start 
 
-##### 1 comments 
+##### 1) comment key word is #
 ```bash 
 the hashtag is use as comments # <--- as an example 
 ```
 
-##### 2 output (terminal)
+##### 2) output (terminal)
 Just keep in mind that output (standard output) is the terminal to show our testing :)  
 
 ```
