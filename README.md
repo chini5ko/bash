@@ -1,15 +1,21 @@
 # Easy bash
 It is a simple guide that you can scrow down easily and learn quickly.
 
-##### 2 points before we start 
+#### 2 points before we start 
 
-###### 1 comments 
+##### 1 comments 
 ```bash 
-the hashtag sign is use for comment in bash # for example
+the hashtag is use as comments # <--- as an example 
 ```
 
-###### 2 standard output (terminal)
-Just keep in mind that stdout (standard output) is the terminal or the console where the program prints their output
+##### 2 standard output (terminal)
+Just keep in mind that stdout (standard output) is the terminal to show our testing :)  
+
+```
+stdout:
+-------
+example
+```
 
 ## echo
 
