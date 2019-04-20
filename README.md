@@ -43,7 +43,7 @@ bash tutorial
 # Moving between your File System 
 
 ## $ pwd
-(pwd stand for present working directory)
+(pwd stands for present working directory)
 - Where are you located now? 
 
 
@@ -98,7 +98,7 @@ $ mkdir secretFolder # create a directory with the name <anyName>
 ### how do I know if is a file or directory?
 -   bash command have flags that you can use to display more details ! 
 
-let's use the -l flag ( which stand for long listing format)
+let's use the -l flag ( which stands for long listing format)
 ```bash
 $ ls -l
 ```
@@ -111,7 +111,7 @@ drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 13:57 secretFolder
 ```
 It print a bunch of details that we will discuss later, but check whether is a file we just have to check the first character of each line
 - the first line we have "-" which show that your file is a file
-- the first character "d" stand for directory in your second line 
+- the first character "d" stands for directory in your second line 
 
 
 
