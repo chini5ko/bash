@@ -2,17 +2,19 @@
 It is a simple guide that you can scrow down easily and learn quickly (assuming that you have some programming experience).
 
 You might wonder what bash is? 
-bash is just a shell command line program and a program language to access your Operating System (OS) which could be Linux or your Mac's terminal 
+bash is just a shell command line program or a programming language to access your Operating System (OS) which could be Linux or your Mac's terminal 
 
 #### 2 points before we start 
 
-##### 1) comment key word is #
+##### 1) The comment key word is an hashtag like #
 ```bash 
 the hashtag is use as comments # <--- as an example 
 ```
 
 ##### 2) output (terminal)
 Just keep in mind that output (standard output) is the terminal to show our testing :)  
+
+Since we don't have a bash shell nor a terminal in this README.md, we will use the following format as our output
 
 ```
 stdout:
