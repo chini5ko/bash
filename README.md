@@ -1,5 +1,7 @@
 # Easy bash
 It is a simple guide that you can scrow down easily and learn quickly (assuming that you have some programming experience).
+Motivation behind this guide:
+I am a New Yorker, and sometime I just want to open a github repository and learn on my phone looking at README.md like this one. I hope you enjoy the ride with me during this easy_bash tutorial 
 
 You might wonder what bash is? 
 bash is just a shell command line program or a programming language to access your Operating System (OS) which could be Linux or your Mac's terminal 
@@ -22,7 +24,7 @@ stdout:
 example
 ```
 
-## echo
+## $ echo
 
 let's begin with a simple echo which prints a line of text. 
 
@@ -36,11 +38,12 @@ output:
 bash tutorial 
 ```
 
-## Moving between your File System 
+# Moving between your File System 
 
-## Where are you located now? 
-## pwd (present working directory)
-Yes ~ files are called directory in most of the command line 
+## $ pwd
+(pwd stand for present working directory)
+- Where are you located now? 
+
 
 ```bash
 $ pwd #where I am located now?
@@ -50,15 +53,18 @@ $ pwd #where I am located now?
 output:
 -------
 /home/chini5ko
-# my current directory is chini5ko (your could be different directory )
 ```
+My current directory is chini5ko (your could be different directory )
+And Yes ~ files are called directory in most of the terminals 
 
 
-## What if I want to see all the directories and files?
-## ls (list command)
+# What if I want to see all the directories and files?
+## $ ls
+ (ls stabd for list)
+ - ls command list all the files and directories
 
 ```bash
-$ ls #list me the files and directories 
+$ ls 
 ```
 
 ```bash
@@ -71,17 +77,40 @@ hello.txt secretFolder
 
 ### what if I don't have this file under my current directory?
 
-## touch (touch program)
+## $ touch (touch program)
 this command create a file under your current directory 
 ```bash
 $ touch hello.txt 
 ```
 
-## mkdir 
+## $ mkdir 
 this command create a file under your current directory 
 ```bash
 $ mkdir secretFolder # create a directory with the name <anyName>
 ```
+### Now list all the files under your current directory 
+
+
+## Flags 
+
+### how do I know if is a file or directory?
+-   bash command have flags that you can use to display more details ! 
+
+let's use the -l flag ( which stand for long listing format)
+```bash
+$ ls -l
+```
+
+```bash
+output:
+-------
+-rw-rw-rw- 1 chini5ko chini5ko    0 Apr 20 13:57 hello.txt
+drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 13:57 secretFolder
+```
+It print a bunch of details that we will discuss later, but check whether is a file we just have to check the first character of each line
+- the first line we have "-" which show that your file is a file
+- the first character "d" stand for directory in your second line 
+
 
 
 ## Variables
