@@ -1,7 +1,9 @@
 # Easy bash
 It is a simple guide that you can scrow down easily and learn quickly (assuming that you have some programming experience).
-Motivation behind this guide:
-I am a New Yorker, and sometime I just want to open a github repository and learn on my phone looking at README.md like this one. I hope you enjoy the ride with me during this easy_bash tutorial 
+
+#####   Motivation behind this guide:
+-   I am a New Yorker, and sometime I just want to open a github repository and learn on my phone looking at README.md like this one. 
+-   I hope you enjoy the ride with me during this easy_bash tutorial 
 
 You might wonder what bash is? 
 bash is just a shell command line program or a programming language to access your Operating System (OS) which could be Linux or your Mac's terminal 
@@ -126,7 +128,10 @@ output:
 chini5ko  
 ```
 
-## pws
+### To do 
+variables for integer
+explain cd 
+... Coming back soon :)
 
 
 
