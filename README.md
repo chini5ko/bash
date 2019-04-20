@@ -1,6 +1,9 @@
 # Easy bash
 It is a simple guide that you can scrow down easily and learn quickly (assuming that you have some programming experience).
 
+You might wonder what bash is? 
+bash is just a shell command line program and a program language to access your Operating System (OS) which could be Linux or your Mac's terminal 
+
 #### 2 points before we start 
 
 ##### 1) comment key word is #
