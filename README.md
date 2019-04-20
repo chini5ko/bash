@@ -1,5 +1,5 @@
 # Easy bash
-It is a simple guide that you can scrow down easily and learn quickly.
+It is a simple guide that you can scrow down easily and learn quickly (assuming that you have some programming experience).
 
 #### 2 points before we start 
 
@@ -33,7 +33,7 @@ bash tutorial
 
 ## Variables
 variables are tricky in bash because the syntax is not as usual as the other programs. 
--  (warning!) You must not put space between the variable's name, the equal sign,and the variable name 
+-  ```<warning>``` You must not put space between the variable's name, the equal sign,and the string assigned to the name 
 ```bash
 $ name="chini5ko" # (there is no space between the string and the equal sign !)
 $ echo $name
@@ -43,6 +43,8 @@ output:
 -------
 chini5ko  
 ```
+
+## pws
 
 
 
