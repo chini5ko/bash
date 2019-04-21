@@ -5,7 +5,7 @@ It is a simple guide that you can scrow down easily and learn quickly (assuming 
 -   I am a New Yorker, and sometime I just want to open a github repository and learn on my phone looking at README.md like this one. 
 -   I hope you enjoy the ride with me during this easy_bash tutorial 
 
-You might wonder what bash is? 
+What is bash? 
 bash is just a shell command line program or a programming language to access your Operating System (OS) which could be Linux or your Mac's terminal 
 
 #### 2 points before we start 
@@ -77,7 +77,7 @@ hello.txt secretFolder
 - hello is a file
 - secretFolder is a directory 
 
-### what if I don't have this file under my current directory?
+### > what if I don't have this file under my current directory?
 
 ## $ touch (touch program)
 this command create a file under your current directory 
@@ -95,7 +95,7 @@ $ mkdir secretFolder # create a directory with the name <anyName>
 
 ## Flags 
 
-### how do I know if is a file or directory?
+### > how do I know if is a file or a directory?
 -   bash command have flags that you can use to display more details ! 
 
 let's use the -l flag ( which stands for long listing format)
@@ -109,9 +109,60 @@ output:
 -rw-rw-rw- 1 chini5ko chini5ko    0 Apr 20 13:57 hello.txt
 drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 13:57 secretFolder
 ```
-It print a bunch of details that we will discuss later, but check whether is a file we just have to check the first character of each line
-- the first line we have "-" which show that your file is a file
+It print a bunch of details that we will discuss later, but to check whether is a file or a directory, we just have to look at the first character of each line
+- the first line we have "-" which tells you that is a file
 - the first character "d" stands for directory in your second line 
+
+### > Wait, did you know that you still have two special directories in your current directory?
+- To list all the files, we will use the "-a" flags and use the "-l" (long listing format) as follow:
+
+```bash
+$ ls -l -a 
+# it works also when you write the flags together as -la 
+```
+
+```bash
+output:
+-------
+drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 15:06 .
+drwxr-xr-x 1 chini5ko chini5ko 4096 Apr 20 13:56 ..
+-rw-rw-rw- 1 chini5ko chini5ko    0 Apr 20 13:57 hello.txt
+drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 13:57 secretFolder
+```
+
+### > oh gosh there are 2 directories with dots 
+-   one with 1 dot . 
+-   the other one with two dots ..
+-   (dots files are not listed if you do not use the "-a" flag after your ls command)
+
+## the 1 dot directory . 
+It represent your currrent directory 
+
+## the 2 dots directory
+It represent your parent directory 
+
+### > how are these dots useful? 
+you can move back to your previous directory with the two dots ! 
+
+## $ cd
+the cd command stands for change directory 
+-   if you want to change your directory to your previos directory, then you use the dots. 
+-   You can actually change your directory to the current directory with one dots (but that is not as useful here)
+-   you can also move to a directory by typing the direcotry name
+
+```bash
+$ cd secretFolder # change your directory to secretFolder
+$ pwd #prints your current directory 
+$ cd .. # go back to your current directory
+$ pwd #prints a directory one level above the previos one 
+```
+
+```bash
+output:
+-------
+/home/chini5ko/secretFolder
+/home/chini5ko
+```
 
 
 
@@ -129,9 +180,10 @@ chini5ko
 ```
 
 ### To do 
-variables for integer
-explain cd 
-... Coming back soon :)
+- variables for integer
+- explain cd 
+- ...
+- Coming back soon :)
 
 
 
