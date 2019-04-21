@@ -86,7 +86,7 @@ $ touch hello.txt
 ```
 
 ## $ mkdir 
-this command create a file under your current directory 
+this command create a directory (or a folder) under your current directory 
 ```bash
 $ mkdir secretFolder # create a directory with the name <anyName>
 ```
