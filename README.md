@@ -164,6 +164,39 @@ output:
 /home/chini5ko
 ```
 
+### > How do I write content to a file? 
+You have a few options 
+-   redirecting from the output of your terminal 
+-   Use a editor like Vim -> [http://www.openvim.com] or Nano 
+
+## $ > Redirecting 
+Intead of printing to the terminal, we can print it to a file 
+
+```bash
+$ cd secretFolder # change your directory to secretFolder
+$ touch train7.txt # create a file called trian7.txt
+$ echo "Main Street Flushing" > train7.txt # redirecting echo's output to train7.txt
+```
+
+```bash
+output:
+-------
+
+```
+No output because it was redirected to the train7.txt file 
+
+## $ cat 
+cat prints the content of the file to the terminal 
+
+```bash
+$ cat train7.txt
+```
+
+```bash
+output:
+-------
+Main Street Flushing
+```
 
 
 ## Variables
