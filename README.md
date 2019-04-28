@@ -220,6 +220,14 @@ chini5ko
 
 
 
+# Random thing to incorporate later  
+
+```bash
+$ find /class/files/ -name *.txt
+$ echo $name
+$ echo '**' $(date +"%Y-%m-%d"). Have a good day '!!' '**'  #date format 
+```
+
 
 
 
