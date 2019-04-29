@@ -185,8 +185,24 @@ output:
 ```
 No output because it was redirected to the train7.txt file 
 
+## $ >> Appending to a file  
+double arrow will append the content to the end of the file without overwring it 
+
+```bash
+$ echo "is a place with good traditional Asian food" >> train7.txt # appending to train7.txt
+```
+
+```bash
+output:
+-------
+
+```
+
 ## $ cat 
 cat prints the content of the file to the terminal 
+
+#### Flags:
+- n # include number output, starting with one 
 
 ```bash
 $ cat train7.txt
@@ -196,7 +212,65 @@ $ cat train7.txt
 output:
 -------
 Main Street Flushing
+is a place with good traditional Asian food
 ```
+# ~~~~~ from this point on, I would include more example later ~~~~
+
+## $ WC 
+count the number of words in the file 
+#### Flags:
+-   -l # count per line 
+-   -c # count per bytes or ACISS characters
+-   -w # count by the number of words 
+
+## $ sort
+sort the contet of a file 
+#### Flags:
+-   -n # numeric sort
+-   -r # sort in reverse 
+
+## $ ls
+ls the files
+#### Flags:
+-   -l # long listing format 
+-   -a # show dots files 
+-   -d # list directories without showing thier contents 
+
+## $ grep 
+searches "x" from the input files and print it to the terminal 
+
+#### Flags:
+- -i # igonore cases 
+- -E #  -E, --extended-regexp
+              Interpret PATTERN as an  extended  regular  expression .
+
+## $ find  
+look for file 
+
+#### Flags:
+- -name #name of the file
+- -exec # do it for each file
+
+## $ cut  
+it let you choose an expecific patter to print to the terminal by triming whatever else you dont want to print to the terminal 
+
+#### Flags:
+- -f # the field, usually a number 
+- -d # d is the delimeter that would be used to let the program know hoow would trimmed 
+
+
+## $ head 
+print from the head 
+
+#### Flags:
+- -n number of line that would be printed ot the terminal couniting from the head
+
+## $ tail 
+print from the tail
+
+#### Flags:
+- -n 
+## $ ln <--- manke link>
 
 
 ## Variables
