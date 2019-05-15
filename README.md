@@ -274,6 +274,8 @@ print from the tail
 
 
 ## Variables
+
+### Strings 
 variables are tricky in bash because the syntax is not as usual as the other programs. 
 -  ```<warning>``` You must not put space between the variable's name, the equal sign,and the string assigned to the name 
 ```bash
@@ -285,6 +287,19 @@ output:
 -------
 chini5ko  
 ```
+
+### arithmetics   
+ 
+```bash
+$ age="$((22+1))" # (there is no space between the string and the equal sign !)
+$ echo $age
+```
+```
+output:
+-------
+23
+```  
+
 
 ### To do 
 - variables for integer
