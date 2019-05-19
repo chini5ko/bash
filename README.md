@@ -2,7 +2,7 @@
 It is a simple guide that you can scrow down easily and learn quickly (assuming that you have some programming experience).
 
 #####   Motivation behind this guide:
--   I am a New Yorker, and sometime I just want to open a github repository and learn on my phone looking at README.md like this one. 
+-   I am a New Yorker, and sometime I just want to open a github repository and learn on my phone while I am riding the trian. 
 -   I hope you enjoy the ride with me during this easy_bash tutorial 
 
 What is bash? 
@@ -40,12 +40,24 @@ output:
 bash tutorial 
 ```
 
-# Moving between your File System 
+# File System basic commands 
+
+Commands: 
+- pwd
+- ls  
+- touch 
+- mkdir
+- cd
+-  (Redirection and append to a file)
+- - ``` > and >> ```
+- cp 
+- mv 
+- rm 
+
+These are the 7 commands that you will need to move between your files system as moving between the trian system 
 
 ## $ pwd
 (pwd stands for present working directory)
-- Where are you located now? 
-
 
 ```bash
 $ pwd #where I am located now?
@@ -60,7 +72,7 @@ My current directory is chini5ko (your could be different directory )
 And Yes ~ files are called directory in most of the terminals 
 
 
-# What if I want to see all the directories and files?
+### > "What if I want to see all the directories and files?"
 ## $ ls
  (ls stabd for list)
  - ls command list all the files and directories
@@ -77,7 +89,7 @@ hello.txt secretFolder
 - hello is a file
 - secretFolder is a directory 
 
-### > what if I don't have this file under my current directory?
+### > "what if I don't have this file under my current directory?"
 
 ## $ touch (touch program)
 this command create a file under your current directory 
@@ -130,7 +142,7 @@ drwxr-xr-x 1 chini5ko chini5ko 4096 Apr 20 13:56 ..
 drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 13:57 secretFolder
 ```
 
-### > oh gosh there are 2 directories with dots 
+### > "oh gosh there are 2 directories with dots"
 -   one with 1 dot . 
 -   the other one with two dots ..
 -   (dots files are not listed if you do not use the "-a" flag after your ls command)
@@ -164,7 +176,7 @@ output:
 /home/chini5ko
 ```
 
-### > How do I write content to a file? 
+### > "How do I write content to a file?"
 You have a few options 
 -   redirecting from the output of your terminal 
 -   Use a editor like Vim -> [http://www.openvim.com] or Nano 
@@ -213,6 +225,14 @@ output:
 -------
 Main Street Flushing
 is a place with good traditional Asian food
+
+
+
+
+
+
+
+
 ```
 # ~~~~~ from this point on, I would include more example later ~~~~
 
@@ -302,7 +322,6 @@ output:
 
 
 ### To do 
-- variables for integer
 - explain cd 
 - ...
 - Coming back soon :)
