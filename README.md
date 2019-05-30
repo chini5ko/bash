@@ -66,11 +66,9 @@ $ pwd #where I am located now?
 ```
 output:
 -------
-/home/chini5ko
+/some_path/easy_bash
 ```
-My current directory is chini5ko (your could be different directory )
-And Yes ~ files are called directory in most of the terminals 
-
+After you cloned this directory in your computer, you would have a folder with the following files. 
 
 ### > "What if I want to see all the directories and files?"
 ## $ ls
@@ -103,7 +101,6 @@ this command create a directory (or a folder) under your current directory
 $ mkdir secretFolder # create a directory with the name <anyName>
 ```
 ### Now list all the files under your current directory 
-
 
 ## Flags 
 
@@ -227,14 +224,7 @@ Main Street Flushing
 is a place with good traditional Asian food
 
 
-
-
-
-
-
-
 ```
-# ~~~~~ from this point on, I would include more example later ~~~~
 
 ## $ WC 
 count the number of words in the file 
@@ -242,6 +232,8 @@ count the number of words in the file
 -   -l # count per line 
 -   -c # count per bytes or ACISS characters
 -   -w # count by the number of words 
+
+
 
 ## $ sort
 sort the contet of a file 
@@ -321,20 +313,11 @@ output:
 ```  
 
 
-### To do 
-- explain cd 
-- ...
-- Coming back soon :)
 
 
 
-# Random thing to incorporate later  
 
-```bash
-$ find /class/files/ -name *.txt
-$ echo $name
-$ echo '**' $(date +"%Y-%m-%d"). Have a good day '!!' '**'  #date format 
-```
+
 
 
 
