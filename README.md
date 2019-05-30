@@ -133,10 +133,12 @@ $ ls -l -a
 ```bash
 output:
 -------
-drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 15:06 .
-drwxr-xr-x 1 chini5ko chini5ko 4096 Apr 20 13:56 ..
--rw-rw-rw- 1 chini5ko chini5ko    0 Apr 20 13:57 hello.txt
-drwxrwxrwx 1 chini5ko chini5ko 4096 Apr 20 13:57 secretFolder
+drwxr-xr-x 1 chini 197609    0 May 30 18:44 .
+drwxr-xr-x 1 chini 197609    0 May 15 18:49 ..
+drwxr-xr-x 1 chini 197609    0 May 30 18:46 .git
+-rw-r--r-- 1 chini 197609    0 May 30 18:45 hello.txt
+-rw-r--r-- 1 chini 197609 7647 May 30 18:46 README.md
+drwxr-xr-x 1 chini 197609    0 May 30 18:44 secretFolder
 ```
 
 ### > "oh gosh there are 2 directories with dots"
@@ -169,8 +171,8 @@ $ pwd #prints a directory one level above the previos one
 ```bash
 output:
 -------
-/home/chini5ko/secretFolder
-/home/chini5ko
+/some_path/easy_bash/secretFolder
+/some_path/easy_bash/
 ```
 
 ### > "How do I write content to a file?"
