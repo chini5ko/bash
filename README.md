@@ -224,8 +224,6 @@ output:
 -------
 Main Street Flushing
 is a place with good traditional Asian food
-
-
 ```
 
 ## $ WC 
@@ -235,6 +233,28 @@ count the number of words in the file
 -   -c # count per bytes or ACISS characters
 -   -w # count by the number of words 
 
+```
+$ wc -l train7.txt
+```
+```bash
+output:
+-------
+2 train7.txt
+```
+
+### > "Let do piping here to just print the number of line without the file name after displaying the number of lines"
+
+# Piping 
+It takes the output of one program as input of the program we are piping to. 
+
+```
+$ cat train7.txt | wc -l 
+```
+```bash
+output:
+-------
+2 
+```
 
 
 ## $ sort
