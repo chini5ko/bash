@@ -87,7 +87,7 @@ $ ls
 ```bash
 output:
 -------
-hello.txt secretFolder
+README.md hello.txt secretFolder
 ```
 - hello is a file
 - secretFolder is a directory 
@@ -214,6 +214,8 @@ output:
 
 ```
 
+# More useful programs:
+
 ## $ cat 
 cat prints the content of the file to the terminal 
 
@@ -231,7 +233,7 @@ Main Street Flushing
 is a place with good traditional Asian food
 ```
 
-## $ WC 
+## $ wc
 count the number of words in the file 
 #### Flags:
 -   -l # count per line 
@@ -260,7 +262,6 @@ output:
 -------
 2 
 ```
-
 
 ## $ sort
 sort the contet of a file 
@@ -338,3 +339,6 @@ output:
 -------
 23
 ```  
+### Here we concluded the small guide for bash !
+Let me know at chinisko@outlook.com if you would like to be part of this easy bash guide. 
+
