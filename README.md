@@ -68,7 +68,12 @@ output:
 -------
 /some_path/easy_bash
 ```
-After you cloned this directory in your computer, you would have a folder with the following files. 
+After you cloned this directory in your computer, you would have a folder with the following files:
+
+
+- README.md
+- hello.txt
+- secretFolder
 
 ### > "What if I want to see all the directories and files?"
 ## $ ls
@@ -333,14 +338,3 @@ output:
 -------
 23
 ```  
-
-
-
-
-
-
-
-
-
-
-
