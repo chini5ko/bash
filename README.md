@@ -308,11 +308,6 @@ print from the head
 ## $ tail 
 print from the tail
 
-#### Flags:
-- -n 
-## $ ln <--- manke link>
-
-
 ## Variables
 
 ### Strings 
